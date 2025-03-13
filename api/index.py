@@ -8,4 +8,5 @@ class handler(BaseHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(address.encode('utf-8'))
         return
+        
 
