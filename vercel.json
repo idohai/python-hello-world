@@ -1,7 +1,5 @@
 {
   "redirects": [{ "source": "/", "destination": "/api" }]
-},
-{
   "rewrites": [
     { "source": "/:address", "destination": "/api" }
   ]
